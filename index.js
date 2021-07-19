@@ -11,26 +11,32 @@ class book = {
 }
 
 // Define your Manual and Novel classes here:
-let maual = {
+class Manual extends Book{
+  constructor (title, author, copyright, isbn, pageCount, timesCheckedOut, discarded)
+};
+
+class Novel extends Book{
+  constructor (title, author, copyright,isbn, pageCount, timesCheckedOut, discarded)
+};
+// Declare the objects for exercises 2 and 3 here:
+let topSecretShuttleBuildingManual = new Manual {
   title:'Top Secret Shuttle Building Manual',
   author:'Redacted',
-  copyright-date:2013,
+  copyright:2013,
   isbn:0000000000000,
   pageCount:1147,
   timesCheckedOut:1,
   discarded:'No'
 }
 
-let novel = {
+let prideandPrejudice = new Novel {
   title:'Pride and Prejudice',
   author:'Jane Austen',
-  copyright-date:1813,
+  copyright:1813,
   isbn:1111111111111,
   pageCount:432,
   timesCheckedOut:32,
   discarded:'No'
 }
-// Declare the objects for exercises 2 and 3 here:
-
 
 // Code exercises 4 & 5 here:
